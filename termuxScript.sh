@@ -3,6 +3,7 @@ pkg install -y git ecj dx
 echo use vim or nano?
 read choice
 pkg install -y $choice
+termux-setup-storage
 cd /data/data/com.termux/files/usr/bin
 cat script >> java
 chmod +x java
